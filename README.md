@@ -12,6 +12,7 @@ This project let you analyze data from a bike sharing company in an interactive 
 * chicago.csv
 * new_york_city.csv
 * README.md
+* .gitignore
 
 ### Credits
-This project was developed within the Nanodegree "Programming for Data Science" on http://www.udacity.com.
+This project was developed within the Nanodegree "Programming for Data Science" on http://www.udacity.com. Some lines of the code derive from Udacity and were given. 

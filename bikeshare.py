@@ -244,7 +244,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_data(df):
-    """   """
+    """ Asks the user if he/she would like to see some raw data. """
     c = 0
     while True:
         more_stats = str(input('\nWould you like to see raw trip data? Enter "yes" or "no".\n'))

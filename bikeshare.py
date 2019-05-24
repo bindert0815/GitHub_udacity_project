@@ -23,11 +23,11 @@ def get_filters():
         try:
             city = str(input('Please, type the name of the city you would like to see statistics for (chicago, new york city or washington):\n').lower())
             if city == 'chicago':
-                print('You\'ve chosen', city)
+                print('You\'ve chosen {}'.format(city))
             elif city == 'new york city':
-                print('You\'ve chosen', city)
+                print('You\'ve chosen{}'.format(city))
             elif city == 'washington':
-                print('You\'ve chosen', city)
+                print('You\'ve chosen{}'.format(city))
             else:
                 print('Please select between "chicago", "new york city" or "washington". Try again!')
                 quit()

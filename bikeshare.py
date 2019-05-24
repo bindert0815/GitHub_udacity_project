@@ -41,20 +41,22 @@ def get_filters():
     while True:
         try:
             month = str(input('\nPlease, select a month by entering "january", "february", "march", "april", "may", "june" or "all" for no filter:\n').lower())
-            if month == 'january':
-                print('You\'ve chosen', month)
-            elif month == 'february':
-                print('You\'ve chosen', month)
-            elif month == 'march':
-                print('You\'ve chosen', month)
-            elif month == 'april':
-                print('You\'ve chosen', month)
-            elif month == 'may':
-                print('You\'ve chosen', month)
-            elif month == 'june':
-                print('You\'ve chosen', month)
-            elif month == 'all':
-                print('You\'ve chosen', month)
+            if month == 'january' or month == 'february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all':
+                print('You\'ve chosen {}'.format(month))
+#            if month == 'january':
+#                print('You\'ve chosen', month)
+#            elif month == 'february':
+#                print('You\'ve chosen', month)
+#            elif month == 'march':
+#                print('You\'ve chosen', month)
+#            elif month == 'april':
+#                print('You\'ve chosen', month)
+#            elif month == 'may':
+#                print('You\'ve chosen', month)
+#            elif month == 'june':
+#                print('You\'ve chosen', month)
+#            elif month == 'all':
+#                print('You\'ve chosen', month)
             else:
                 print('Please select between "january", "february", "march", "april", "may", "june" or "all". Try again!')
                 quit()
